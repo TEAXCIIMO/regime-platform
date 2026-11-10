@@ -1,0 +1,50 @@
+{
+  "design": {
+    "config": "minimal-4s-tied-M-daily",
+    "rule": {
+      "rule": "probability_template"
+    }
+  },
+  "period": [
+    "2024-01-02",
+    "2026-10-29"
+  ],
+  "hmm": {
+    "observations": 710,
+    "annual_return": 0.13092352308314958,
+    "annual_volatility": 0.09682166652635368,
+    "sharpe": 0.8771602176620729,
+    "max_drawdown": -0.12135983194262623
+  },
+  "benchmark_60_40": {
+    "observations": 710,
+    "annual_return": 0.11851427935520031,
+    "annual_volatility": 0.10300080924385659,
+    "sharpe": 0.7233311088622021,
+    "max_drawdown": -0.12258424018844438
+  },
+  "information_ratio": {
+    "active_return": 0.010427622249894903,
+    "tracking_error": 0.04399648687360549,
+    "information_ratio": 0.23701033857207077
+  },
+  "vs_benchmark": {
+    "difference": 0.18039285573374175,
+    "ci_low": -0.2019685425968258,
+    "ci_high": 0.5370401182548432,
+    "share_above_zero": 0.7992
+  },
+  "vs_placebo_shuffle": {
+    "difference": 0.42012526518474,
+    "ci_low": -0.15337142870265902,
+    "ci_high": 0.9659888501031986,
+    "share_above_zero": 0.917
+  },
+  "vs_placebo_markov": {
+    "difference": 0.21924487651294755,
+    "ci_low": -0.2987379733313177,
+    "ci_high": 0.7333758204982109,
+    "share_above_zero": 0.7794
+  },
+  "rq2_supported": false
+}

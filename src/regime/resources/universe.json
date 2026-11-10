@@ -1,0 +1,16 @@
+{
+  "groups": {
+    "equity_broad": ["SPY", "QQQ", "IWM", "DIA", "MDY", "VTI", "IVV", "VOO", "RSP", "VTV", "VUG", "IWD", "IWF", "IJH", "IJR", "MTUM", "USMV", "QUAL"],
+    "equity_sector": ["XLK", "XLF", "XLE", "XLV", "XLI", "XLP", "XLY", "XLU", "XLB", "VNQ", "IYR", "SMH", "XBI", "KRE", "XOP", "XHB", "XRT", "ITB", "GDX", "GDXJ"],
+    "international": ["EFA", "EEM", "VEA", "VWO", "IEFA", "IEMG", "EWJ", "EWZ", "EWG", "EWU", "EWC", "EWA", "EWY", "EWT", "EWH", "EWS", "EWW", "FXI", "MCHI", "INDA"],
+    "rates": ["SHY", "IEI", "IEF", "TLH", "TLT", "VGSH", "VGIT", "VGLT", "GOVT", "SCHO", "BIL", "SHV", "TIP", "STIP"],
+    "credit": ["LQD", "HYG", "JNK", "VCIT", "VCSH", "AGG", "BND", "MUB", "EMB", "BKLN", "PFF", "MBB"],
+    "commodity": ["GLD", "IAU", "SLV", "USO", "DBC", "DBA", "UNG", "PDBC", "GSG", "PPLT"],
+    "fx": ["UUP", "FXE", "FXY", "FXB", "FXA", "FXC"]
+  },
+  "core_universe": ["SPY", "QQQ", "IWM", "XLF", "XLK", "XLE", "EFA", "EEM", "SHY", "IEF", "TLT", "LQD", "HYG", "GLD", "USO", "UUP"],
+  "minimal_universe": ["SPY", "QQQ", "TLT", "IEF", "GLD", "USO", "HYG", "LQD"],
+  "correlation_basket": ["SPY", "IWM", "XLF", "XLE", "EFA", "EEM", "IEF", "TLT", "LQD", "HYG", "GLD", "USO", "UUP"],
+  "macro_series": ["DGS2", "DGS10", "DTB3", "VIXCLS"],
+  "traded_assets": ["SPY", "TLT", "IEF", "GLD"]
+}

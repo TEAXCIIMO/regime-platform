@@ -1,0 +1,8 @@
+job,workers,worker_vcpus,seconds,speedup_vs_2
+01 bars to daily (103M rows),7,14,608.7,3.08
+01 bars to daily (103M rows),4,8,976.8,1.92
+01 bars to daily (103M rows),2,4,1876.4,1.0
+02 sweep (16 configs),7,14,343.2,2.0
+02 sweep (16 configs),4,8,459.8,1.49
+02 sweep (16 configs),2,4,685.5,1.0
+02 sweep (84 configs),7,14,1218.7,

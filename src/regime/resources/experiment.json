@@ -1,0 +1,25 @@
+{
+  "data": {"start": "2016-01-01", "end": "2026-10-30"},
+  "split": {"dev_start": "2018-01-01", "dev_end": "2022-12-31", "val_end": "2023-12-31"},
+  "walk_forward": {"min_train_days": 504},
+  "signal_grid": {
+    "universe": ["minimal", "core", "full"],
+    "n_states": [2, 3, 4],
+    "covariance": ["diag", "tied"],
+    "refit": ["M", "Q"],
+    "feature_set": ["daily", "intraday", "all"]
+  },
+  "hmm": {"seeds": [7, 11, 19, 23, 31], "n_iter": 100, "tol": 0.0001},
+  "placebo": {"seed": 2026, "markov_persistence": 0.95, "chain_confidence": 0.9},
+  "portfolio": {
+    "base": {"SPY": 0.6, "TLT": 0.2, "IEF": 0.2, "GLD": 0.0},
+    "unit_on": {"SPY": 1.0, "TLT": -0.5, "IEF": -0.5, "GLD": 0.0},
+    "unit_off": {"SPY": -1.0, "TLT": 0.4, "IEF": 0.2, "GLD": 0.4},
+    "full_amplitude": 0.4,
+    "tilt_amplitudes": [0.05, 0.10, 0.15, 0.20, 0.30],
+    "gate_thresholds": [0.5, 0.6, 0.7, 0.8],
+    "gate_scales": [0.1, 0.2, 0.3]
+  },
+  "execution": ["next_open", "next_vwap", "next_close"],
+  "costs_bps": [0, 2, 5, 10]
+}

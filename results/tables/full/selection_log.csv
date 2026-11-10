@@ -1,0 +1,6 @@
+year,strategy,past_sharpe
+2019,full-3s-tied-Q-all#hmm#hard_template,1.5994773303732497
+2020,full-4s-tied-Q-all#hmm#hard_template,2.808616651914397
+2021,full-3s-tied-Q-all#hmm#hard_template,1.8674510533823165
+2022,full-3s-tied-Q-all#hmm#hard_template,1.9596828605069752
+2023,minimal-4s-tied-M-daily#hmm#probability_template,0.9135318214510484
